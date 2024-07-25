@@ -1,5 +1,6 @@
 from flask import Flask, request, redirect, url_for, Response, render_template
 
+import firebase
 from gemini import get_response
 from sendSMS import send_sms
 
@@ -24,7 +25,9 @@ def add_member():
     if not name or not number:
         return redirect(url_for('error'))
 
-    send_sms(number.replace(' ', ''), f'''
+    number = number.replace(' ', '')
+    firebase.add_member(name=name, number=number)
+    send_sms(number, f'''
         Welcome to AgriAsk, {name}. Ready to answer your farming questions. 
         What would you like to know today?''')
     return redirect(url_for('index'))
@@ -37,7 +40,7 @@ def handle_incoming_messages():
     prompt = form_data['text']
     sender = form_data['from']
 
-    response = get_response(prompt)
+    response = get_response(prompt=prompt, number=sender)
     send_sms(sender, response)
     return Response(status=200)
 

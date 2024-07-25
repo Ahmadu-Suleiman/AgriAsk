@@ -22,4 +22,4 @@ def send_sms(to_numbers, message):
         response = sms.send(message, to_numbers, short_code)
         print(response)
     except Exception as e:
-        print(f'Houston, we have a problem: {e}')
+        print(f'Issue: {e}')
