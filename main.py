@@ -12,9 +12,9 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/error')
-def error():
-    return render_template('error.html')
+@app.route('/confirmation')
+def confirmation():
+    return render_template('confirmation.html')
 
 
 @app.route('/add-member', methods=['POST'])
@@ -30,7 +30,7 @@ def add_member():
     send_sms(number, f'''
         Welcome to AgriAsk, {name}. Ready to answer your farming questions. 
         What would you like to know today?''')
-    return redirect(url_for('index'))
+    return redirect(url_for('confirmation'))
 
 
 @app.route('/incoming-messages', methods=['POST'])
