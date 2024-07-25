@@ -22,6 +22,3 @@ def get_response(prompt):
     Generate responses in less than 400 character count.
     Here is their question, "{prompt}".''')
     return wrapper.fill(response.text.replace('*', ''))
-
-
-print(get_response('What are the best crops to grow in a dry climate in Northern Nigeria?'))

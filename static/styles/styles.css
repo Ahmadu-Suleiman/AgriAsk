@@ -51,24 +51,26 @@ form {
     flex-direction: column;
 	align-items: center;
 	min-width: 80%;
-	height: 15dvh;
+	height: 20dvh;
     gap: 20px;
 }
-input[type="text"] {
+input[type="text"],
+input[type="tel"] {
 	min-width: 80%;
-    height: 70%;
-    border: 1px solid rgb(220,116,28);
+    height: 100%;
+    border: 1px solid rgb(204,162,124);
     font-size: large;
-    padding-left: 10px;
+    padding-left: 4px;
 	outline: none;
 }
 
-input[type="text"]:focus{
+input[type="text"]:focus,
+input[type="tel"]:focus{
     border:1px solid rgb(220,116,28);
 }
 input[type="submit"]{
     width: 15%;
-    height: 80%;
+    height: 100%;
     border-radius: 4px;
     cursor: pointer;
     font-size: large;
