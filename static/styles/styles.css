@@ -62,6 +62,7 @@ input[type="tel"] {
     font-size: large;
     padding-left: 4px;
 	outline: none;
+    border-radius: 4px;
 }
 
 input[type="text"]:focus,

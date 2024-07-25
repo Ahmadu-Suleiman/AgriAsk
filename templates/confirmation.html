@@ -14,6 +14,7 @@
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
+				background: rgb(211,190,171)
 			}
 
 			h1 {
@@ -23,7 +24,7 @@
 				font-size: 3rem;
 			}
 
-			.error {
+			.phone {
 				width: 400px;
 				animation: wobble;
 				animation-duration: 3s;
@@ -34,7 +35,7 @@
 		</style>
 	</head>
 	<body>
-		<h1>Check your device</h1>
-		<div class="error"><img src="error.png" alt="error-pic" /></div>
+		<h1>Check your phone</h1>
+		<div class="phone"><img src="{{ url_for('static', filename='images/check_your_phone_logo.jpg') }}" alt="check_your_phone_logo" /></div>
 	</body>
 </html>
