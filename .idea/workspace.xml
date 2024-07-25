@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ffa1186-90e1-4a8a-bb1a-f6e6c78b1713" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/check_your_phone_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/confirmation.html" afterDir="false" />
-    </list>
+    <list default="true" id="3ffa1186-90e1-4a8a-bb1a-f6e6c78b1713" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
