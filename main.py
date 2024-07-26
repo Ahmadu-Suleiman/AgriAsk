@@ -23,7 +23,7 @@ def add_member():
     name = form_data['name']
     number = form_data['number']
     if not name or not number:
-        return redirect(url_for('error'))
+        return redirect(url_for('add-member'))
 
     number = number.replace(' ', '')
     firebase.add_member(name=name, number=number)
