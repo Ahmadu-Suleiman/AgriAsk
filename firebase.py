@@ -22,7 +22,7 @@ def get_member(number: str):
 
 
 def set_member_history(number: str, history: str):
-    doc_ref.document(number).set({'history': history})
+    doc_ref.document(number).set({'history': history}, merge=True)
 
 
 def get_member_history(number: str) -> list:
