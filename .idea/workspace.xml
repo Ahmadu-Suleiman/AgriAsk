@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3ffa1186-90e1-4a8a-bb1a-f6e6c78b1713" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/agri ask logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.py" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/gemini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.gemini.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sendSMS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.smsServer.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ahmad/Desktop/Projects/AgriAsk&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.gemini.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.sendSMS.executor": "Run",
+    "Python.smsServer.executor": "Debug",
+    "Python.util.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ahmad/Documents/Desktop/Projects/AgriAsk"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ahmad\Desktop\Projects\AgriAsk" />
@@ -121,21 +122,5 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/firebase.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/firebase.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

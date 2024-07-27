@@ -13,6 +13,10 @@ def add_member(name: str, number: str):
     doc_ref.document(number).set({'name': name})
 
 
+def member_exist(number: str):
+    return doc_ref.document(number).get().exists
+
+
 def get_member(number: str):
     return doc_ref.document(number)
 

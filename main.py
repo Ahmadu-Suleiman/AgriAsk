@@ -1,6 +1,7 @@
 from flask import Flask, request, redirect, url_for, Response, render_template
 
 import firebase
+import util
 from gemini import get_response
 from sendSMS import send_sms
 
@@ -25,11 +26,7 @@ def add_member():
     if not name or not number:
         return redirect(url_for('add-member'))
 
-    number = number.replace(' ', '')
-    firebase.add_member(name=name, number=number)
-    send_sms(number, f'''
-        Welcome to AgriAsk, {name}. Ready to answer your farming questions. 
-        What would you like to know today?''')
+    send_confirmation(name=name, number=number)
     return redirect(url_for('confirmation'))
 
 
@@ -37,12 +34,24 @@ def add_member():
 def handle_incoming_messages():
     form_data = request.form
     print(form_data)
-    prompt = form_data['text']
+    text = form_data['text']
     sender = form_data['from']
 
-    response = get_response(prompt=prompt, number=sender)
-    send_sms(sender, response)
+    name = util.register_name(text)
+    if len(name) > 2:
+        send_confirmation(name=name, number=sender)
+    else:
+        response = get_response(prompt=text, number=sender)
+        send_sms(sender, response)
     return Response(status=200)
+
+
+def send_confirmation(name, number):
+    number = number.replace(' ', '')
+    firebase.add_member(name=name, number=number)
+    send_sms(number, f'''
+        Welcome to AgriAsk, {name}. Ready to answer your farming questions. 
+        What would you like to know today?''')
 
 
 if __name__ == '__main__':
