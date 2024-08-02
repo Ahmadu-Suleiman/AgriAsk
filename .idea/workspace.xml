@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ffa1186-90e1-4a8a-bb1a-f6e6c78b1713" name="Changes" comment="" />
+    <list default="true" id="3ffa1186-90e1-4a8a-bb1a-f6e6c78b1713" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gemini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sendSMS.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sendSMS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/check_your_phone_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/images/check_your_phone_logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.firebase.executor": "Run",
     "Python.gemini.executor": "Run",
     "Python.main.executor": "Run",
     "Python.sendSMS.executor": "Run",
@@ -53,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ahmad/Documents/Desktop/Projects/AgriAsk"
+    "last_opened_file_path": "C:/Users/ahmad/Documents/Desktop/Projects/AskAll"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -64,6 +76,7 @@
       <recent name="C:\Users\ahmad\Desktop\Projects\AgriAsk\.venv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ahmad\Documents\Desktop\Projects\AgriAsk\src" />
       <recent name="C:\Users\ahmad\Desktop\Projects\AgriAsk\static\images" />
       <recent name="C:\Users\ahmad\Desktop\Projects\AgriAsk" />
     </key>
