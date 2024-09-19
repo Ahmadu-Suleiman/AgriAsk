@@ -13,4 +13,4 @@ Whether you're a seasoned farmer or just starting out, AgriAsk is your go-to res
 
 We are committed to continuously improving AgriAsk based on farmer feedback. Your suggestions and insights are invaluable to us.
  
-**Let's grow together!** 
+### **Let's grow together!** 
